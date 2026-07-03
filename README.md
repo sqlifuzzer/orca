@@ -23,11 +23,11 @@ pip install requests
 usage: orca.py
 REQUIRED ARGUMENTS:
 url                   e.g. https://example.com:8081/page.aspx, http://example.com, https://127.0.0.1:8080
-ciphertext            The ciphertext to attack - can be base64 encoded or a string of hex bytes. Provide a URL-decoded version. URL-encoding will be applied on output.
+ciphertext            e.g. /LA0Us7iIXaxTid25gdlIePo8MHYgeBexPGCByF5R8SnrJ4KdTXl/I5SdHQnIS/K2MpuZ+oYBxvnLY5UuAqDDA==
 encoding              base64, None
 method                GET, POST
 blocksize             e.g. 8, 16, 32
-body                  e.g. foo=bar&msg=
+body                  e.g. foo=bar&msg=/LA0Us7iIXaxTid25gdlIePo8MHYgeBexPGCByF5R8SnrJ4KdTXl/I5SdHQnIS/K2MpuZ+oYBxvnLY5UuAqDDA==
 
 OPTIONAL ARGUMENTS:
 --headers             {'Cookie': 'foo'} Note: Content-Type: application/x-www-form-urlencoded headers are added for POST method
