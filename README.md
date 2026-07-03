@@ -22,7 +22,7 @@ pip install requests
 ```
 usage: orca.py
 REQUIRED ARGUMENTS:
-url                   e.g. https://example.com:8081/page.aspx, http://example.com, https://127.0.0.1:8080
+url                   e.g. https://example.com:8081/page.aspx
 ciphertext            e.g. /LA0Us7iIXaxTid25gdlIePo8MHYgeBexPGCByF5R8SnrJ4KdTXl/I5SdHQnIS/K2MpuZ+oYBxvnLY5UuAqDDA==
 encoding              base64, None
 method                GET, POST
