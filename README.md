@@ -29,7 +29,7 @@ method                GET, POST
 blocksize             e.g. 8, 16, 32
 body                  e.g. foo=bar&msg=
 
-OPTIONAL ARGUMENTS
+OPTIONAL ARGUMENTS:
 --headers             {'Cookie': 'foo'} Note: Content-Type: application/x-www-form-urlencoded headers are added for POST method
 --keyword             A custom, case-insensitive, keyword to search responses for 
 --noiv                Activate 'no IV mode'
